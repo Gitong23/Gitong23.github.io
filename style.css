@@ -1,0 +1,156 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(172, 177, 214);
+}
+
+
+/* nav bar */
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    
+    font-weight: 600;
+    background-color: rgb(130, 148, 196);
+    border-bottom: 3px solid rgb(250, 250, 250);
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: medium;
+    color: white;
+}
+
+.nav-item{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.dropdown-item:hover {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(130, 148, 196);
+}
+
+.nav-item>.nav-link:hover {
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    background-color:rgb(172, 177, 214);
+}
+
+#company_logo {
+    font-weight: bold;
+}
+
+
+/* about me */
+
+#aboutMe{
+    background-color: white;
+    width: 100%;
+}
+
+#contract{
+    margin-right: 15%;
+    margin-left: 15%;
+    display: flex;
+    
+}
+
+#abm{
+    border-bottom: 3px solid black;
+}
+
+#ct{
+    border-bottom: 3px solid black;
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    #contract{
+        
+        flex-direction: column;
+    }
+
+    #abm{
+        margin-top: 30px;
+    }
+
+    #ct{
+        margin-top: 20px;
+    }
+}
+
+
+/* education */
+#degree{
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#degree>h1{
+    border-bottom: 1px solid white;
+    width: fit-content;
+}
+
+/* certification */
+
+.certification{
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(219, 223, 234);
+}
+
+#cer_topic{
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 3px solid rgb(51, 46, 46);
+}
+
+.card-body>h3{
+    width: 100%;
+    text-align: center;
+}
+
+/* Work Exp. */
+.work_exp{
+    background-color: rgb(255, 234, 210);
+    height: auto;
+}
+
+#exp_topic{
+    width: 50%;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 3px solid rgb(51, 46, 46);
+}
+
+.tech_skill{
+    background-color: white;
+}
+
+/* footer */
+
+#footer{
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

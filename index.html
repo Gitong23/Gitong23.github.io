@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karn's Portfolio</title>
+
+    <!-- bootstrap 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+    <!-- icon from font font-awesome -->
+    <script src="https://kit.fontawesome.com/e2552fe58e.js" crossorigin="anonymous"></script>
+
+    
+
+
+    
+</head>
+<body>
+    
+<!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-md " aria-label="Fourth navbar example">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-users-viewfinder fa-xl"></i></a>
+            <a class="navbar-brand" id="company_logo" href="#">Karn Kraiket</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample04">
+                <ul class="navbar-nav mx-auto mb-2 mb-md-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" onclick="">Contract</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" onclick="toEducation();">Education</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" onclick="toCert();">Certification</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" onclick="toWork();">Work Experience</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" onclick="toTech();">Technical Skill</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" onclick="toProject();">Project</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div id="aboutMe">
+      <div style="margin-top: 50px; padding-top: 50px; margin-bottom: 50px; text-align: center; width: 100%;"><h1>Karn's portfolio webpage</h1></div>
+      
+      <div id="contract">
+
+        
+
+        <div><img src="web_resume/ชุดครุย-modified.png" width="250px" style="margin-right: 50px;" alt=""></div>
+
+        <div>
+          <h3 id="abm">About Me</h3>
+          <p class="lead mb-4">
+            I'm a former Civil Engineer who decide to change my career path to Software Developer becuase I love programming so much.
+            I'm looking for full-time job in junoir software developer.
+          </p>
+
+          <h3 id="ct">Contract</h3>
+          <p class="lead"><i class="fa-solid fa-envelope"></i>  Email: gitong23@gmail.com</p>
+          <p class="lead"><i class="fa-solid fa-phone"></i>  Tel. : 092-935-1491</p>
+          <p class="lead"><i class="fa-brands fa-linkedin"></i>  Linkedin : <a href="https://www.linkedin.com/in/karn-kraiket-914793195/" target="_blank">https://www.linkedin.com/in/karn-kraiket-914793195/</a></p>
+          <p class="lead"><i class="fa-brands fa-github"></i>  Github Profile : <a href="https://github.com/Gitong23/">https://github.com/Gitong23</a></p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <section>
+        <!-- Education -->
+        <div class="container col-xxl-8 px-4 py-5" id="nav1">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-lg-4" id="degree">
+                <h1> Education</h1>
+                <p class="lead" >
+                    Bachelor of Engineering in Civil Engineering , 2020 <br>
+                    King mongkut's Institute of Technology Ladkrabang(KMITL) <br> (GPA 3.04)
+                </p>
+                
+              </div>
+              <div class="col-10 col-sm-8 col-lg-8  mx-auto">
+                <img src="web_resume/ทรานสคิป.jpg" class="d-block mx-lg-auto img-fluid" alt="Transcript" width="700" height="500" loading="lazy">
+              </div>
+
+            </div>
+          </div>
+
+          <!-- certification -->
+          <div class="certification" >
+            <h1 id="cer_topic">Certifications</h1>
+            <div class="container col-xxl-8 px-4 py-1 ">
+
+            <div class="row flex-row-reverse flex-column align-items-center g-5 py-5">
+              <div class="col-12">
+                <img src="web_resume/Cer_img/toeic.png" class="d-block mx-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+              </div>
+              <div class="col-12" >
+                <h2  style="text-align: center;">TOEIC Test Score 610 point (2019)</h2>
+              </div>
+            </div>
+
+            <div class="row flex-row-reverse flex-column align-items-center g-5 py-5">
+              <div class="col-12">
+                <img src="web_resume/Cer_img/js_udemy.jpg" class="d-block mx-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+              </div>
+              <div class="col-12" >
+                <h2  style="text-align: center;">The Modern Javscript Bootcamp 2022 (Udemy)</h2>
+              </div>
+            </div>
+
+            <div class="row flex-row-reverse flex-column align-items-center g-5 py-5">
+              <div class="col-12">
+                <img src="web_resume/Cer_img/py_cours.png" class="d-block mx-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+              </div>
+              <div class="col-12" >
+                <h2  style="text-align: center;">Programming in Python (Coursera)</h2>
+              </div>
+            </div>
+
+            <div class="row flex-row-reverse flex-column align-items-center g-5 py-5">
+              <div class="col-12">
+                <img src="web_resume/Cer_img/back_cours.png" class="d-block mx-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+              </div>
+              <div class="col-12" >
+                <h2  style="text-align: center;">Introduction to Back-End Development(Coursera)</h2>
+              </div>
+            </div>
+
+            <div class="row flex-row-reverse flex-column align-items-center g-5 py-5">
+              <div class="col-12">
+                <img src="web_resume/Cer_img/java_born.png" class="d-block mx-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+              </div>
+              <div class="col-12" >
+                <h2  style="text-align: center;">Java Programming (Born to DEV)</h2>
+              </div>
+            </div>
+
+            <div class="row flex-row-reverse flex-column align-items-center g-5 py-5">
+              <div class="col-12">
+                <img src="web_resume/Cer_img/js_born.png" class="d-block mx-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+              </div>
+              <div class="col-12" >
+                <h2  style="text-align: center;">Introduction to JavaScript (Born to DEV)</h2>
+              </div>
+            </div>
+            </div>
+          </div>
+          
+          <!-- Work Experience -->
+          <div class="work_exp" >
+            <h1 id="exp_topic">Work Experience</h1>
+
+            <!-- Work Position SE -->
+            <div class="container col-xxl-8 px-4 py-3" id="nav3">
+              <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-lg-6" >
+                  <h1>Construction Site Engineer  (2020-2022)</h1>
+                  <p class="lead">
+                    Banchakij.Co,Ltd. · Full-time
+                  </p>
+                  <p class="lead">
+                    Bangkok City, Thailand
+                  </p>
+                  <p class="lead">
+                    I have been worked in Bridge Construction project in site engineer position.
+                    I have responsibilities in estimating cost in constucttion,arranging shop drawing for approval,purchasing material in constuction,quality and cost controlling,constuction surveying.
+                    You can see my thai Professional Engineer License from the picture.
+                  </p>
+
+                </div>
+                <div class="col-10 col-lg-6  mx-auto">
+                  <img src="web_resume/licence2.jpg" class="d-block mx-lg-auto img-fluid" alt="eng_licence" width="700" height="500" loading="lazy">
+                </div>
+              </div>
+            </div>
+
+            <!-- Work Pic-->
+            <div class="album py-5 bg-body-tertiary">
+              <div class="container">
+                <h2 class="pb-3">Working Picture</h2>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="web_resume/work_img/aboutMe2.JPG" alt="work_1" width="100%" height="300">
+                      <div class="card-body">
+                        <p class="card-text">Land surveying work.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="web_resume/work_img/corousel2.JPG" alt="work_2" width="100%" height="300">
+                      <div class="card-body">
+                        <p class="card-text">Rechecked steel bar reinforcement in structure.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="web_resume/work_img/corousel3.JPG" alt="work_3" width="100%" height="300">
+                      <div class="card-body">
+                        <p class="card-text"> Prepare purchasing construction material.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="web_resume/work_img/image_67191297.JPG" alt="work_4" width="100%" height="300">
+                      <div class="card-body">
+                        <p class="card-text">Concrete pouring for structure work.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="web_resume/work_img/image_67194369.JPG" alt="work_5" width="100%" height="300">
+                      <div class="card-body">
+                        <p class="card-text">Quality control for construction while ranning.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="web_resume/work_img/image_67211777.JPG" alt="work_6" width="100%" height="300">
+                      <div class="card-body">
+                        <p class="card-text">Coordinate with stakeholder for the work run smoothly.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill -->
+            <div class="tech_skill " id="nav4">
+              <div class="container  px-4 py-5" id="icon-grid">
+                <h2 class="pb-2 border-bottom">Programming & Framework</h2>
+            
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+                  <div class="col d-flex align-items-start">
+                    <img  src="web_resume/logo/java.png" width="100px" height="100px" alt="java">
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4">JAVA </h3>
+                      <ul>
+                        <li>Storng with OOP</li>
+                        <li>Building Gui Project</li>
+                        <li>Connect to MySQL</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img  src="web_resume/logo/py.png" width="100px" height="100px" alt="python">
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4">Python</h3>
+                      <ul>
+                        <li>OOP Concept</li>
+                        <li>Data Structure</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img  src="web_resume/logo/git.png" width="100px" height="100px" alt="git">
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4">Git</h3>
+                      <ul>
+                        <li>Git Comand</li>
+                        <li>Fluent with Github</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img  src="web_resume/logo/html5.png" width="100px" height="100px" alt="html5">
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4">HTML5</h3>
+                      <ul>
+                        <li>HTML Element</li>
+                        <li>HTML form validation</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img  src="web_resume/logo/css3.png" width="100px" height="100px" alt="css3">
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4">CSS3</h3>
+                      <ul>
+                        <li>CSS property</li>
+                        <li>CSS selector</li>
+                        <li>Responsive Design</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img  src="web_resume/logo/JavaScript.png" width="100px" height="100px" alt="js">
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4">JavaScript</h3>
+                      <ul>
+                        <li>Dom manipulation</li>
+                        <li>Basic animation</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img  src="web_resume/logo/bootstarp.png" width="100px" height="100px" alt="bootstarp">
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4">Bootstap 5</h3>
+                      <ul>
+                        <li>Bootstap's Grid</li>
+                        <li>Responsive Design</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img  src="web_resume/logo/jquery.png" width="100px" height="100px" alt="jquery">
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4">Jquery</h3>
+                      <ul>
+                        <li>Fluent with jquery</li>
+                        <li>Work with Ajax</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="col d-flex align-items-start">
+                    <img  src="web_resume/logo/mySQL.png" width="100px" height="100px" alt="mysql">
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4">MySQL</h3>
+                      <ul>
+                        <li>SQL command</li>
+                        <li>PHP myadmin</li>
+                        <li>Relational DB</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="col d-flex align-items-start">
+                    <img  src="web_resume/logo/php.png" width="100px" height="100px" alt="mysql">
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4">PHP</h3>
+                      <ul>
+                        <li>CRUD Application</li>
+                        <li>Connect to MySQL</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="col d-flex align-items-start">
+                    <img  src="web_resume/logo/nodejs.png" width="100px" height="100px" alt="mysql">
+                    <div>
+                      <h3 class="fw-bold mb-0 fs-4">NodeJS</h3>
+                      <ul>
+                        <li>npm</li>
+                        <li>express</li>
+                        <li>connect to MySQL</li>
+                      </ul>
+                    </div>
+                  </div>
+
+
+
+                </div>
+              </div>
+
+              <div class="container px-4 py-5 " id="featured-3">
+                <h2 class="pb-2 border-bottom">Knowledge</h2>
+                <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 ">
+                  <div class="feature col">
+                    <h3 class="fs-2">Data Structure & Algorithirm</h3>
+                    <ul>
+                      <ul>
+                        <li>Time complexity space complexity</li>
+                        <li>Data Structure Type
+                          <ul>
+                            <li>
+                              Array
+                            </li>
+                            <li>
+                              Singly Linked List, Doubly Linked List
+                            </li>
+                            <li>
+                              Stack,Queue
+                            </li>
+                            <li>
+                              Tree, Binary Serch Tree, AVL Tree
+                            </li>
+                            <li>
+                              Hash Table
+                            </li>
+                          </ul>
+                        </li>
+                        <li>Sort Algorithirm
+                          <ul>
+                            <li>Bubble Sort</li>
+                            <li>Selection Sort</li>
+                            <li>Insertion Sort</li>
+                            <li>Merge Sort</li>
+                            <li>Quick Sort</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </ul>
+                  </div>
+
+                  <div class="feature col">
+                    <h3 class="fs-2">Relational Database</h3>
+                    <ul>
+                      <li>Basic Database Design
+                          <ul>
+                            <li>
+                              ER-Diagram
+                            </li>
+                            <li>
+                              Normolization
+                            </li>
+                          </ul>
+                      </li>
+                      <li>SQL Command
+                        <ul>
+                          <li>Insert,Update,Delete</li>
+                          <li>Join Table</li>
+                          <li>Aggregate Functions</li>
+                          <li>Window Functions</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="feature col">
+                    <h3 class="fs-2">Webdevelopment</h3>
+                    <ul>
+                      <li>Basic Unix Command</li>
+                      <li>Fluent with git technology</li>
+                      <li>Responsive Web Design
+                        <ul>
+                          <li>Using Css flex-box & Media Queries</li>
+                          <li>Using Bootstrap Grid System</li>
+                        </ul>
+                      </li>
+                      <li>Client Sever Model</li>
+                      <li>Cookie/Session</li>
+                      <li>json/XML</li>
+                      <li>Ajax</li>
+                      <li>MVC</li>
+                      
+                    </ul>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!--Project-->
+          <div class="container col-xxl-8 px-4 py-3" id="project" >
+            <h1 class="py-2 border-bottom">Project</h1>
+
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-lg-6" >
+                <h1>Real Estate Maketplace Website (Crud)</h1>
+                <p class="lead">
+                  (NodeJS, Express, Google Map API, MySQL, EJS)
+                 </p>
+
+                <ul>
+                  <li>Crud website develop by express framework in backend.</li>
+                  <li>Front end delvelop by ejs module and bootstarp.</li>
+                  <li>Admin and User can create or edit own's content.</li>
+                  <li>Upload image in content by multer module.</li>
+                  <li>Connect google map api in property's location.</li>
+                  <li>Collect data in MySQL</li>
+                </ul>
+
+                <a class="btn btn-dark" href="https://github.com/Gitong23/RealEstate_Maketplace_Crud.git" target="_blank"><i class="fa-brands fa-github fa-lg"></i>  Github Link</a>
+
+              </div>
+              <div class="col-10 col-lg-6  mx-auto">
+                <img src="web_resume/realEstate.jpg" class="d-block mx-lg-auto img-fluid" alt="eng_licence" width="700" height="500" loading="lazy">
+              </div>
+            </div>
+
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-lg-6" >
+                <h1>Food Review Webboard (Crud)</h1>
+                <p class="lead">
+                  PHP, Jquery, Ajax, MySQL, Bootstrap
+                 </p>
+
+                 <ul>
+                  <li>Crud website develop by php in backend.</li>
+                  <li>Front end delvelop by Jquery and bootstarp.</li>
+                  <li>User can create or edit own's review webboard.</li>
+                  <li>Each user can add comment to another's webboard</li>
+                  <li>User can upload image to webboard</li>
+                  <li>Collect data in MySQL</li>
+                </ul>
+                <a class="btn btn-dark" href="https://github.com/Gitong23/webboard_crud.git" target="_blank"><i class="fa-brands fa-github fa-lg"></i>  Github Link</a>
+
+              </div>
+              <div class="col-10 col-lg-6  mx-auto">
+                <img src="web_resume/webboard.jpg" class="d-block mx-lg-auto img-fluid" alt="eng_licence" width="700" height="500" loading="lazy">
+              </div>
+            </div>
+
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-lg-6" >
+                <h1>Shirt Shop Management Program (JAVA GUI)</h1>
+                <p class="lead">
+                  JAVA , MySQL, JDBC 
+                </p>
+
+                <ul>
+                  <li>Develop by OOP Concept</li>
+                  <li>User can create own's shirt pattern by upload image</li>
+                  <li>User can make own's order </li>
+                  <li>Admin can manage order from user</li>
+                  <li>Can export image of shirt in .png files</li>
+                  <li>Can print invoice in .pdf files</li>
+                  <li>Connect to MySQL by JDBC</li>
+                </ul>
+                <a class="btn btn-dark" href="https://github.com/Gitong23/ShirtShop.git" target="_blank"><i class="fa-brands fa-github fa-lg"></i>  Github Link</a>
+
+              </div>
+              <div class="col-10 col-lg-6  mx-auto">
+                <img src="web_resume/shirtShop.jpg" class="d-block mx-lg-auto img-fluid" alt="eng_licence" width="700" height="500" loading="lazy">
+              </div>
+            </div>
+          </div>
+
+          <div class=" col-6  mx-auto mb-5">
+            <div class="d-grid gap-1">
+              <a href="https://github.com/Gitong23" target="_blank" class="btn btn-dark"><i class="fa-brands fa-github fa-lg"></i> For more project in my github profile</a>
+            </div>
+          </div>
+    </section>
+
+    <footer id="footer">
+      
+        <h5>Karn's Portfolio</h5>
+        <h5>Email: gitong23@gmail.com</h5>
+        <h5>Tel: 092-935-1491</h5>
+      
+    </footer>
+    
+     <script>
+
+      function toEducation(){
+        location.href = "#nav1";
+      }
+
+      function toCert(){
+        location.href = "#cer_topic";
+      }
+
+      function toWork(){
+        location.href = "#nav3";
+      }
+
+      function toTech(){
+        location.href = "#nav4";
+      }
+
+      function toProject(){
+        location.href = "#project";
+      }
+
+    </script>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+     <!-- bootstrap -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
